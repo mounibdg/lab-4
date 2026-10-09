@@ -1,0 +1,14 @@
+.task{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.task.completed span{
+    text-decoration: line-through;
+    color: gray;
+}
