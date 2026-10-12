@@ -33,4 +33,4 @@ class TaskManager{
     toggleTask(taskId){
         this.tasks = this.tasks.map(task => task.id === taskId ? task.toggle() : task);
     }
-}
+} 
